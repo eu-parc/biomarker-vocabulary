@@ -9,16 +9,38 @@ assignees: ''
 Thanks for taking the time to fill out this addition request!
 
 ### Required fields
-Please provide a unique ID for the required resource:
 
-`<Add your unique ID here>`  
-_Example: `MY_NEW_RESOURCE`_
+#### BioChemicalEntity
+    - name: 
+    - label:
+    - biochemidentitiers
+        - CAS number:
+        - inCHi key:
+        - CHEBI key:
+    - parent compound:
+        - parent compound name:
+        - biochemidentitiers
+            - CAS number:
+            - inCHi key:
+            - CHEBI key:
+    - translations
+        - name:
+        - language:
+
+#### Matrix
+    - name:
+
+#### Indicator
+    - type: (select one)
+        - [ ] Exposure marker
+        - [ ] Effect marker
+        - [ ] General property
+    - unit:
 
 ### Existence Check
-- [ ] I have checked that this new resource is not yet part of the vocabulary.
+- [ ] I have checked that I am not inventing a new Matrix.
+- [ ] I have checked that this Biomarker is not yet part of the vocabulary.
 
-### Uniqueness Check
-- [ ] I have checked that the unique identifier of this resource is indeed unique.
 
 ---
 
